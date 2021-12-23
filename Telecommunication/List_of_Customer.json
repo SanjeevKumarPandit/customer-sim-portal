@@ -1,0 +1,34 @@
+RequestMethod:-POST
+URL->
+http://localhost:8787/telecommunication/getCustomerDtl
+
+{
+    "status": "1",
+    "message": "TODAY TOTAL 1 CUSTOMER CELEBRATE OWN BIRTHDAY..!! ",
+    "customerList": [
+        {
+            "customerId": 3,
+            "customerName": "Rohit kumar",
+            "fatherName": "Rajesh kumar",
+            "gender": "M",
+            "customerDob": "2000-12-23",
+            "contactNo": "9876543215",
+            "uidNo": "123456780000",
+            "voterId": "vi122189",
+            "customerEmail": "rohit@gmail.com",
+            "address": "BCCL ",
+            "district": "Dhanbad",
+            "state": "Jharkhand",
+            "pincode": "872782"
+        }
+    ],
+    "mappedSimList": [
+        {
+            "simId": 2,
+            "companyName": "JIO",
+            "activationDate": "2021-12-22",
+            "simStatus": "L",
+            "customerId": 3
+        }
+    ]
+}

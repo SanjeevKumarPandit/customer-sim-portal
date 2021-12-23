@@ -1,0 +1,15 @@
+URL:-
+Request Method: POST
+http://localhost:8787/telecommunication/linkSim
+
+Request:
+{
+    "customerDob":"1995-02-01",
+    "uidNo":"123456784444"
+}
+
+Reposne:-
+{
+    "status": "1",
+    "message": "Customer has been Linked to SIM"
+}

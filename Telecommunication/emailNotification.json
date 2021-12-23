@@ -1,0 +1,9 @@
+Request Method:-GET
+
+URL:-http://localhost:8787/telecommunication/emailNotification
+
+Response :-
+{
+    "status": "1",
+    "message": "Total  0 Notification Mail send to customer && Birthday of 3 Customer is not within seven days"
+}

@@ -1,0 +1,39 @@
+RequestMethod:-GET
+http://localhost:8787/telecommunication/getAllSimDtl
+
+Response:-
+
+{
+    "status": "1",
+    "message": "Success",
+    "simList": [
+        {
+            "simId": 1,
+            "companyName": "VI",
+            "activationDate": "2021-12-22",
+            "simStatus": "L",
+            "customerId": 1
+        },
+        {
+            "simId": 2,
+            "companyName": "JIO",
+            "activationDate": "2021-12-22",
+            "simStatus": "L",
+            "customerId": 3
+        },
+        {
+            "simId": 3,
+            "companyName": "AIRTEL",
+            "activationDate": "2021-12-22",
+            "simStatus": "L",
+            "customerId": 2
+        },
+        {
+            "simId": 4,
+            "companyName": "AIRTEL",
+            "activationDate": "2021-12-22",
+            "simStatus": "A",
+            "customerId": null
+        }
+    ]
+}
