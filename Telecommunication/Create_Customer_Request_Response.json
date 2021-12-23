@@ -1,0 +1,20 @@
+RequestMethod:-POST
+URL->http://localhost:8787/telecommunication/createCustomer
+Request:-
+{
+    "customerEntity": {
+        "customerId": 4,
+        "customerName":"Ravi kumar",
+        "fatherName": "Rajesh kumar",
+        "gender": "M",
+        "customerDob":"1998-12-26",
+        "contactNo":"9876543215",
+        "uidNo":"123456780001",
+        "voterId":"vi122189",
+        "customerEmail":"rohit@gmail.com",
+        "address": "BCCL ",
+        "district": "Dhanbad",
+        "state": "Jharkhand",
+        "pincode": "872782"
+    }
+}

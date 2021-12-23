@@ -1,0 +1,19 @@
+URL->
+RequestMethod:-POST
+http://localhost:8787/telecommunication/createSim
+
+Request:-
+{
+    "simEntity":{
+        "simId":null,
+        "companyName":"AIRTEL"
+      
+    }
+}
+
+Response:-
+{
+    "status": "1",
+    "message": "Data Saved Successfully",
+    "simId": 4
+}
